@@ -1,0 +1,12 @@
+<h1>計算結果</h1>
+<p>
+  <% if params[:word] == "addition" %>
+    <%=  @addition %>
+  <% elsif params[:word] == "subtraction" %>
+    <%=  @subtraction %>
+  <% elsif params[:word] == "multiplication" %>
+    <%=  @multiplication %>
+  <% elsif params[:word] == "division" %>
+    <%=  @division %>
+  <% end %>
+</p>
